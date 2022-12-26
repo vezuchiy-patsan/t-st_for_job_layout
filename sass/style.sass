@@ -1,2 +1,66 @@
 html, body
     margin: 0
+
+
+header 
+    background-color: #588AB4
+    nav.nav_panel 
+        display: flex
+        align-items: center
+        justify-content: center
+        ul
+            list-style-type: none
+            display: flex
+            li
+                margin: auto 15px
+.container_content
+    width: 890px
+    margin: 0 auto
+    .container_author
+        margin-top: 20px
+        display: flex
+        justify-content: space-betweem
+        align-items: flex-end
+        .subscr
+            padding: 7px 25px
+            color: #588AB4
+            background-color: #fff
+            border: solid 1.5px #588AB4
+            border-radius: 5px 
+    .author
+        width: 120px
+        height: 120px
+        .img_author
+            width: 100%
+            height: 100%
+    .author_info
+        margin-left: 20px
+        width: 600px
+        padding-top: 40px
+        .author_social_char_link
+            display: flex
+            justify-content: space-between
+            align-items: center
+            padding-top: 15px
+            .social_char, .social_link
+                display: flex
+                :nth-child(n+0)
+                    margin-right: 10px    
+        a 
+            display: inline-block
+            width: 20px
+            height: 20px
+            &>div
+                background-size: contain
+                width: 20px
+                height: 20px
+            .dzen_svg
+                background-image: url(icons/dzen.svg) 
+            .vk_svg
+                background-image: url(icons/vk.svg) 
+            .mail_svg
+                background-image: url(icons/mail.svg)
+                
+
+           
+                

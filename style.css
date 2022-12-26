@@ -1,3 +1,103 @@
 html, body {
   margin: 0;
+}
+
+header {
+  background-color: #588AB4;
+}
+header nav.nav_panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header nav.nav_panel ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header nav.nav_panel ul li {
+  margin: auto 15px;
+}
+
+.container_content {
+  width: 890px;
+  margin: 0 auto;
+}
+.container_content .container_author {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-betweem;
+      -ms-flex-pack: space-betweem;
+          justify-content: space-betweem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+.container_content .container_author .subscr {
+  padding: 7px 25px;
+  color: #588AB4;
+  background-color: #fff;
+  border: solid 1.5px #588AB4;
+  border-radius: 5px;
+}
+.container_content .author {
+  width: 120px;
+  height: 120px;
+}
+.container_content .author .img_author {
+  width: 100%;
+  height: 100%;
+}
+.container_content .author_info {
+  margin-left: 20px;
+  width: 600px;
+  padding-top: 40px;
+}
+.container_content .author_info .author_social_char_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+.container_content .author_info .author_social_char_link .social_char, .container_content .author_info .author_social_char_link .social_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.container_content .author_info .author_social_char_link .social_char :nth-child(n+0), .container_content .author_info .author_social_char_link .social_link :nth-child(n+0) {
+  margin-right: 10px;
+}
+.container_content .author_info a {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.container_content .author_info a > div {
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.container_content .author_info a .dzen_svg {
+  background-image: url(icons/dzen.svg);
+}
+.container_content .author_info a .vk_svg {
+  background-image: url(icons/vk.svg);
+}
+.container_content .author_info a .mail_svg {
+  background-image: url(icons/mail.svg);
 }/*# sourceMappingURL=style.css.map */
