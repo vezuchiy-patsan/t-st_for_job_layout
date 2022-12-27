@@ -1,5 +1,8 @@
 html, body {
   margin: 0;
+  font-family: "Times New Roman", Georgia, serif;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 figure {
@@ -54,7 +57,7 @@ header nav.nav_panel ul li.search input {
 }
 .container_content .lines {
   border: 1px solid #A6A6A6;
-  width: 890px;
+  width: 100%;
   margin: 25px 0;
 }
 .container_content .lines.first_line {
@@ -84,15 +87,27 @@ header nav.nav_panel ul li.search input {
   width: 800px;
   height: 800px;
 }
+.container_content section .img_text_1 img {
+  width: 100%;
+  height: 100%;
+}
 .container_content section .img_text_2 {
   margin: 0 auto;
   width: 800px;
   height: 600px;
 }
+.container_content section .img_text_2 img {
+  width: 100%;
+  height: 100%;
+}
 .container_content section .img_text_3 {
   margin: 0 auto;
   width: 800px;
   height: 800px;
+}
+.container_content section .img_text_3 img {
+  width: 100%;
+  height: 100%;
 }
 .container_content section .img_descr_4 {
   max-width: 700px;
@@ -107,10 +122,17 @@ header nav.nav_panel ul li.search input {
 .container_content section .img_descr_4 .img_coll:not(.coll_4) img {
   border-radius: 20px;
 }
+.container_content section .img_descr_4 .img_coll img {
+  width: 800px;
+}
 .container_content section .img_descr_4 .img_coll.coll_4 {
   margin: 0 auto;
   width: 800px;
   height: 650px;
+}
+.container_content section .img_descr_4 .img_coll.coll_4 img {
+  height: 100%;
+  width: 100%;
 }
 .container_content section img {
   border-radius: 20px 20px 0 0;
@@ -121,25 +143,26 @@ header nav.nav_panel ul li.search input {
   background-color: rgba(45, 45, 47, 0.8352941176);
   border-radius: 0 0 20px 20px;
   margin: 0 auto;
+  font-size: 14px;
 }
 .container_content section figcaption.descr_img_text_1 {
   display: block;
-  max-width: 768px;
+  max-width: 764px;
   color: #fff;
 }
 .container_content section figcaption.descr_img_text_2 {
   display: block;
-  max-width: 768px;
+  max-width: 764px;
   color: #fff;
 }
 .container_content section figcaption.descr_img_text_3 {
   display: block;
-  max-width: 768px;
+  max-width: 764px;
   color: #fff;
 }
 .container_content section figcaption.descr_img_text_4 {
   display: block;
-  max-width: 768px;
+  max-width: 764px;
   color: #fff;
 }
 .container_content .author {
