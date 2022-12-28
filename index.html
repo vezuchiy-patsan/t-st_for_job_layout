@@ -14,7 +14,7 @@
     <header>
         <nav class="nav_panel">
             <div class="name_history"><a href="#">NOTICIAS</a></div>
-            <ul>
+            <ul class="menu_items">
                 <li><a href="#">edición</a></li>
                 <li><a href="#">suscripción</a></li>
                 <li><a href="#">recomendación</a></li>
@@ -28,6 +28,24 @@
                 <li class="notif"><img src="icons/notif.svg" alt="notif_icon" width="24px" height="24px"></li>
                 <li class="account"><img src="icons/account.svg" alt="account_icon" width="24px" height="24px"></li>
             </ul>
+        </nav>
+        <nav class="header_bur">
+            <div class="burger_menu">
+                <span></span>
+            </div>
+            <!-- <div class="header_nav">
+                <div class="name_bur_history"><a href="#">NOTICIAS</a></div>
+                <ul>
+                    <li><a href="#">edición</a></li>
+                    <li><a href="#">suscripción</a></li>
+                    <li><a href="#">recomendación</a></li>
+                    <li><a href="#">nuevo</a></li>
+                    <li><a href="#">lo mejor</a></li>
+                    <li><input type="text" name="text" class="search_bur_text" required placeholder="búsqueda"></li>
+                    <li><img src="icons/notif.svg" alt="notif_icon" width="24px" height="24px">></li>
+                    <li><img src="icons/account.svg" alt="account_icon" width="24px" height="24px"></li>
+                </ul>
+            </div> -->
         </nav>
     </header>
     <div class="container_content">
@@ -173,11 +191,15 @@
             </div>
         </div>
     </div>
-    <footer></footer>
+    <footer ><p style="text-align: center; margin-top: 20px">@2022</p></footer>
     <script type="text/javascript">
         let date = new Date();
         date = date.getDate()+ '.' + date.getMonth() + '.' + date.getFullYear();
         document.getElementById('tema').innerHTML = date;
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/menu.js">
+
     </script>
 </body>
 </html>
