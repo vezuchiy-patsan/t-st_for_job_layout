@@ -13,8 +13,58 @@
         width: 100%
     header nav.nav_panel ul li
         margin: auto 5px
-@media screen and ( max-width: 758px )
+    .container_content .popular div.news .text_for_news
+        font-size: 14px
+@media screen and ( max-width: 800px )
+    .fixed-page
+        overflow: hidden 
+    
+    header
+        height: 50px
+    header nav 
+        &.nav_panel
+            display: block
+            position: absolute
+            top: 50px
+            left: 0
+            background: #588AB4
+            box-shadow: #ccc
+            width: 100%
+            box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17)
+            left: -100%
+            transition: all 0.4s ease
+            .name_history
+                margin-left: 20px
+            &.open-menu
+                left: 0
+            ul
+                flex-direction: column
+                li
+                    margin-top: 5px
+        .burger_menu
+            position: relative 
+            width: 40px 
+            height: 40px
+            display: block
+            margin-left: 10px 
+            ul li a
+                color: #000
+        .burger_menu span, .burger_menu:after, .burger_menu:before
+            height: 3px
+            width: 100%
+            position: absolute
+            background: #515758
+            margin: 0 auto
+        .burger_menu span
+            top: 21px
+        .burger_menu:after, .burger_menu:before
+            content: ''
+        .burger_menu:after
+            top: 10px
+        .burger_menu:before
+            bottom: 5px
     .container_content
+        width: 90%
         section 
             .img_text_1, .img_text_2, .img_text_3
                 height: 530px
@@ -26,12 +76,122 @@
                 width: 70%
                 height: 450px 
             .descr_img_text_4
-                width: 66%
+                width: 65%
         figcaption.descr_img_text_1, figcaption.descr_img_text_2, figcaption.descr_img_text_3
-            width: 66%
+            width: 65%
+        .container_author
+            flex-direction: column
+            align-items: center
+            .author
+                width: 240px
+                height: 240px
+            .name_author
+                width: 10%
+                margin: 0 auto
+                padding-right: 40px
+            .tema
+                width: 10%
+                margin: 0 auto
+                padding-left: 15px
+            .author_social_char_link
+                flex-direction: column
+                .social_link
+                    margin: 10px 0
+@media screen and ( max-width:600px  )
+    .container_content
+        width: 90%
+        padding: 0
+        section 
+            .img_text_1, .img_text_2, .img_text_3
+                height: 330px
+                width: 70%
+            .img_descr_4 .img_coll 
+                width: 70%
+                height: auto
+            .img_descr_4 .img_coll.coll_4
+                width: 70%
+                height: 350px 
+            .descr_img_text_4
+                width: 63%
+        figcaption.descr_img_text_1, figcaption.descr_img_text_2, figcaption.descr_img_text_3
+            width: 63%
+            font-size: 12px
+        .popular div.news .text_for_news .addit_info
+            display: none
+    .container_content .author_info
+        width: 100%
+            
 @media screen and ( max-width:420px  )
     .container_content .popular div.news,.container_content div.another .news_now
         width: 95%
+    .container_content
+        section 
+            .img_text_1, .img_text_2, .img_text_3
+                height: 200px
+                width: 70%
+            .img_descr_4 .img_coll 
+                width: 70%
+                height: auto
+            .img_descr_4 .img_coll.coll_4
+                width: 70%
+                height: 200px 
+            .descr_img_text_4
+                width: 60%
+        figcaption.descr_img_text_1, figcaption.descr_img_text_2, figcaption.descr_img_text_3
+            width: 60%
+    .container_content .popular div.bl_line
+        height: 96px
+        border-radius: 60px 0 0 60px
+    .container_content .container_author .name_author
+        padding-right: 60px 
+        &+.tema
+            padding: 0
+@media screen and ( max-width:352px  )
+    h1
+        font-size: 30px
+    .container_content
+        section 
+            .img_text_1, .img_text_2, .img_text_3
+                height: 200px
+                width: 100%
+            .img_descr_4 .img_coll 
+                width: 100%
+                height: auto
+            .img_descr_4 .img_coll.coll_4
+                width: 100%
+                height: 200px 
+            .descr_img_text_4
+                width: 88%
+        figcaption.descr_img_text_1, figcaption.descr_img_text_2, figcaption.descr_img_text_3
+            width: 88%
+    .container_content div.another a
+        font-size: 12px
+    .container_content .popular div.news .text_for_news
+        font-size: 13px
+        margin-left: 10px
+    .container_content .popular div.news .text_for_news .addit_info, .container_content .popular div.news .text_for_news .date
+        display: none
+@media screen and ( max-width:268px  )
+        .container_content
+            section 
+                .img_text_1, .img_text_2, .img_text_3
+                    height: 200px
+                    width: 100%
+                .img_descr_4 .img_coll 
+                    width: 100%
+                    height: auto
+                .img_descr_4 .img_coll.coll_4
+                    width: 100%
+                    height: 200px 
+                .descr_img_text_4
+                    width: 85%
+            figcaption.descr_img_text_1, figcaption.descr_img_text_2, figcaption.descr_img_text_3
+                width: 85%
+        .container_content .popular div.news .text_for_news
+            font-size: 12px
+
+
+    
     
         
     

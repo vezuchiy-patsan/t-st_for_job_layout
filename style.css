@@ -16,6 +16,7 @@ a:active, a {
 
 header {
   background-color: #588AB4;
+  width: 100%;
 }
 header nav.nav_panel {
   display: -webkit-box;
@@ -63,7 +64,7 @@ header nav.nav_panel ul li.search input {
 .container_content .lines.first_line {
   margin: 50px 0;
 }
-.container_content .container_author {
+.container_content div.container_author {
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -71,16 +72,17 @@ header nav.nav_panel ul li.search input {
   -webkit-box-pack: space-betweem;
       -ms-flex-pack: space-betweem;
           justify-content: space-betweem;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.container_content .container_author .subscr {
+.container_content div.container_author .subscr {
   padding: 7px 25px;
   color: #588AB4;
   background-color: #fff;
   border: solid 1.5px #588AB4;
   border-radius: 5px;
+  /* margin-left: 30%   */  
 }
 .container_content section .img_text_1 {
   margin: 0 auto;
